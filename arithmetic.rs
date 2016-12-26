@@ -16,8 +16,8 @@ fn main() {
         io::stdin().read_line(&mut num2)
             .expect("Error: Line not read");
 
-     println!("Addition: {}", num1+num2);
-     println!("Subtraction: {}", num1-num2);
-     println!("Multiplication: {}", num1*num2);
-     println!("Division: {}", num1/num2);
+     println!("Addition: {:?}", num1+num2);
+     println!("Subtraction: {:?}", num1-num2);
+     println!("Multiplication: {:?}", num1*num2);
+     println!("Division: {:?}", num1/num2);
 }
